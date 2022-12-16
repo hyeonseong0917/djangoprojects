@@ -11,8 +11,8 @@ $ python manage.py startapp quoteApp
 - 그 후 새로운 URL Pattern을 define한다.
 (3) 모듈 관리를 더욱 깔끔하게
 - as fa, as qa를 쓰기 보다는 from {app_name}.{file_name} import {function_name}으로 바꿔준다.
-<br>
+
 ![default](./image/1216-6.PNG)
-</br>
+
 Project에서 Multiple Application을 hosting할 수 있다.
 
