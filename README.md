@@ -23,3 +23,4 @@ $ python manage.py startapp firstapp
 - views.py 파일: User의 Requests를 처리하는 모든 class와 function을 관리하고 특정 View를 browser에 display한다. html파일로 구성하며 python은 UI를 렌더링한다.
 - migrations 폴더: 특정 정보에 대한 우리의 모델과 관련 있는 database를 저장.
 
+
