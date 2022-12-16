@@ -1,0 +1,8 @@
+## Application Level URLs
+- 기존의 URL들은 urls.py라는 프로젝트 레벨에서 관리되는데, 이를 App 레벨로 이동하는 방법
+- urls.py 파일을 복사해 firstapp과 quoteApp 두 App에 추가해준다.
+- 각각 App의 url파일에서는 프로젝트 레벨에서 관리했던 import admin, import displayquote를 지워준다.
+- 프로젝트의 urls.py 파일에서 admin,path 를 제외한 나머지 import를 제거한다.
+- 그 후 /firstapp은 include('firstapp.urls')에 매핑하고, /quoteApp/ include('quoteApp.urls')에 매핑한다.
+- 프로젝트의 url을 include를 써서 고정적인 url을 쉽게 관리한다.
+![default](./image/1216-7.PNG)
