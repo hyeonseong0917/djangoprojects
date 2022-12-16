@@ -10,11 +10,11 @@
 - urls.py에서 view.py를 사용하기 위해 from firstapp import views 구문을 추가한다.
 - /hello 라는 url을 추가하기 위해 urlpattern에 views.display를 추가한다.
 <br>
-![default](./image/1216-1.PNG)
+![default](./image/1216-1.png)
 </br>
 request의 URI를 통해 GET /hello 를 받았고, 웹 브라우저를 통해 response를 확인할 수 있다.
 <br>
-![default](./image/1216-2.PNG)
+![default](./image/1216-2.png)
 </br>
 urls.py 파일에서 path(URL, URI) 메소드를 통해 특정 URI를 매핑시키는 URL Config를 구성할 수 있다.
 
