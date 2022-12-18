@@ -1,0 +1,12 @@
+pip instal virtualenv
+where virtualenv
+python -m venv env
+where pip
+## source env/bin/activate
+C:\Users\yuyun\djangoprojects\env\Scripts
+에서 activate 명령어 실행, 벗어나려면 deactivate
+pip3 install django
+pip3 install mysqlclient
+(env) C:\Users\yuyun\djangoprojects>C:\Users\yuyun\djangoprojects\env\Scripts\django-admin.exe startproject virtualEnvDemo
+python manage.py migrate
+python manage.py runserver
