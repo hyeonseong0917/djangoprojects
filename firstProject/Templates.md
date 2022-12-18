@@ -17,4 +17,8 @@ templatesDemo/templates/templatesApp/firstTemplates.html에 html을 만들고, �
 프로젝트의 urls.py에서 urlPatterns에 path()함수를 이용해 웹 경로와 콤마로 구분해 그것을 request로 하는 함수를 호출한다
 5. Templates in Action
 
-
+## Static Files
+1. static이라는 이름의 folder를 만들고, settings.py에 STATIC_FILE_DIRS 리스트를 만들어
+BASE_DIR에 static을 join한 경로를 추가한다.
+2. html 파일에 {%load static%}
+3. static 파일을 사용하기 위해 {} 안에 static "static파일의 경로"를 통해 보이게 할 수 있다.
