@@ -16,3 +16,5 @@ templatesDemo/templates/templatesApp/firstTemplates.html에 html을 만들고, �
 4. Create a View and map it to a URL
 프로젝트의 urls.py에서 urlPatterns에 path()함수를 이용해 웹 경로와 콤마로 구분해 그것을 request로 하는 함수를 호출한다
 5. Templates in Action
+
+
