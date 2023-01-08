@@ -22,5 +22,10 @@ $ python manage.py startapp firstapp
 - tests.py 파일: 특정 application에 대한 테스트를 해볼 수 있음
 - views.py 파일: User의 Requests를 처리하는 모든 class와 function을 관리하고 특정 View를 browser에 display한다. html파일로 구성하며 python은 UI를 렌더링한다.
 - migrations 폴더: 특정 정보에 대한 우리의 모델과 관련 있는 database를 저장.
-
-
+1. 프로젝트 이름의 폴더 안에 있는 settings.py에서 INSTALLED_APPS에 만드려는 APP 이름 추가
+Class Based View vs Function Based View
+- Function Based View: views.py에 requests를 받는 함수들 작성
+- urls.py에서 views를 import하여 path('url/',args)함수의 args매개변수에 Functions을 넣어준다.
+- 프로젝트 이름의 폴더 안의 urls.py에서 from {app_name} import {function_name}을 통해 url 패턴 생성 가능
+=> 프로젝트 단위의 url 관리 방법은 좋은 방법이 아님. APP 단위의 url 관리 방법 지향  
+- path('url/',include('{appname}.urls')) 같은 기능을 사용하는 것은 가능함. 즉 APP Level의 url을 정의하는 것이 가능
